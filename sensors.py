@@ -7,7 +7,7 @@ INPUT_PINS = [2, 3, 17, 27]
 CAST_PIN = 2
 PINS_TO_SPELLS = {3: 1, 17: 2, 27: 3}
 QUERY = "update foo set spell=%d where id=1;"
-DELAY = 1
+DELAY = .3
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
