@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src=" {{ url_for('static', filename='script.js') }} "></script>
+</head>
+<body onload="main();">
+<center>
+  <video id="dragon_video" width="960" height="720" autoplay loop playsinline>
+    <source src="static/dragon.mp4" type="video/mp4" />
+  </video>
+  <br/>
+  Magi Health: <section id="magi_hp">80</section>
+  <br/>
+  Dragon Health: <section id="dragon_hp">80</section>
+</center>
+</body>
+</html>
